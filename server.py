@@ -22,7 +22,6 @@
 # remember to:
 #     pip install flask
 
-
 from flask import Flask, request, redirect
 import json
 app = Flask(__name__)
