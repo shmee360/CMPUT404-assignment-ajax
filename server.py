@@ -14,6 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+# Modifications copyright © 2021 Warren Stix
+#
 # You can start this by executing it in python:
 # python server.py
 #
@@ -21,7 +23,6 @@
 #     pip install flask
 
 
-# import flask
 from flask import Flask, request, redirect
 import json
 app = Flask(__name__)
